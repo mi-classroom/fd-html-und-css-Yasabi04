@@ -1,0 +1,26 @@
+body > *{
+    background-color: var(--bg-grey);
+    padding: 50px;
+}
+
+.topbar, div.zeug{
+    background-color: #6c6c6c;
+    padding: 0px;
+}
+
+h1, h2, h3{
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+footer{
+    background-color: #6c6c6c;
+
+    h3{
+        font-style: italic;
+    }
+}
+
+h2{
+    font-size: var(--xxl);
+}

@@ -1,0 +1,119 @@
+.ilu li{
+    display: block;
+    font-size: var(--l);
+    padding: var(--s);
+    padding-left: var(--3xl);
+    margin: var(--s);
+    margin-bottom: var(--m);
+    color: var(--text);
+    background-color: white;
+}
+
+.favoriten div{
+    font-size: var(--l);
+    padding: var(--s);
+    padding-left: var(--3xl);
+    margin: var(--s);
+    color: var(--text);
+    background-color: white;
+
+    address{
+        font-size: var(--m);
+    }
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*
+.banner{
+    padding: 50px;
+    margin: 50px;
+    padding-top: 5px;
+    background-color: var(--th-orange);
+    color: white;
+    font-style: normal;
+    font-size: var(--m);
+}
+*/
+
+.topbar{
+    width: auto;
+    background-color: #ffffff;
+}
+
+.topbar-content {
+    display: flex; /* Verwende Flexbox, um die Elemente in einer Zeile anzuordnen */
+    justify-content: space-between; /* Platzieren Sie die Elemente so weit wie möglich voneinander entfernt */
+    padding-right: 50px; /* Füge 100px Padding auf beiden Seiten hinzu */
+}
+
+.liste-rechts-oben{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 35px;
+
+    a{
+        font-size: var(--l);
+        margin: 10px;
+        font-weight: bolder;
+        color: var(--th-orange);
+        text-decoration: none;
+    }
+}
+
+/*
+.liste-rechts-oben{
+    display: flexbox;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+*/
+
+.cards{
+    background-color: #ffffff;
+    text-align: left;
+}
+
+.cards li{
+    display: inline-block;
+    margin: var(--s);
+    padding: 5px;
+    background-color: var(--bg-grey);
+}
+
+.cards > *:not(img){
+    padding-left: var(--xl);
+}
+
+.suche{
+    h2{
+        background-color: #ffffff;
+        margin-left: 50px;
+        font-size: var(--xl);
+        font-weight: 150;
+        color: rgb(159, 159, 159);
+        padding: 10px;
+        padding-top: 13px;
+    }
+}
+
+.zeug{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 10px;
+    a{
+        color: #ffffff;
+        padding: 15px;
+        font-size: var(--l);
+        text-decoration: none;
+        margin: var(--3xl);
+    }
+
+    h3{
+        padding-top: 20px;
+        font-size: var(--xl);
+    }
+} 

@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProjectSurvival4All</title>
+    <link rel="stylesheet" href = "./assets/styles/reset.css">
+    <link rel="stylesheet" href = "./assets/styles/fonts.css">
+    <link rel="stylesheet" href = "./assets/styles/icons.css">
+    <link rel="stylesheet" href = "./assets/styles/variables.css">
+    <link rel="stylesheet" href = "./assets/styles/base.css">
+    <link rel="stylesheet" href = "./assets/styles/components.css">
 </head>
 <body>
-    <header>
-        <h1><img src="./images/PS4A-Logo.jpg" alt="ProjectSurvival4All" width = 35%></h1>
+    <header class = "topbar">
+        <div class = "topbar-content">
+            <h1 class = "logo"><img src="../images/PS4A-Logo.jpg" alt="ProjectSurvival4All" width = 30%></h1>
 
-        <div> Liste
+            <!--
+                <div class = "liste-rechts-oben">
             <a href="">News</a>
             <a href="">Barrierefreiheit</a>
             <a href="">DE</a>
         </div>
-    </header> In Dialog oder section
-
-    <dialog>
+            -->
+        </div>
+    </header> 
+    <br>
+    <!--
+    <section class = "banner">
         <h1>Willkommen an der TH-Köln</h1>
 
         <p>In der Bearbeitung von Projekten ist es von entscheidender Bedeutung, 
@@ -28,24 +39,38 @@
             Wissen auf eine interessante und effiziente Weise vermitteln. Schau einfach mal vorbei und entdecke, 
             wie ProjectSurvival4All deine Projekterfahrung auf das nächste Level heben kann.
         </p>
-    </dialog>
+    </section>
+-->
+
+
+    <section class = "suche">
+        <h2>Suche</h2>
+    </section>
 
     <main>
 
-        <section>
+        <section class = "favoriten">
             <h2>Favoriten</h2>
 
             <ul>
-                <li>Wie baue ich eine Präsentation auf?</li>
-                <li>Monika Engelen</li>
-                <li>Wie erstelle ich eine Agenda?</li>
-                <li>Raphaela Groten</li>
-                <li>Wie priorisiere ich eine Backlog?</li>
-                <li>Raphaela Groten</li>
+                <div>
+                    <li>Wie baue ich eine Präsentation auf?</li>
+                    <address>Monika Engelen</address>
+                </div>
+            
+                <div>
+                    <li>Wie erstelle ich eine Agenda?</li>
+                    <address>Raphaela Groten</address>
+                </div>
+                
+                <div>
+                    <li>Wie priorisiere ich eine Backlog?</li>
+                    <address>Raphaela Groten</address>
+                </div>
             </ul>
         </section>
 
-        <section>
+        <section class = "ilu">
         <h2>Von deinem ILU Schreibtisch</h2>
 
         <ul>
@@ -58,13 +83,12 @@
         </section>
 
         <h2>Verlauf</h2>
-Liste an cards
-        <figure>
-            <img src="../images/image25.png" alt="Erste Card" width = 50%>
-            <p>Wie erhalte ich eine Pitch?</p>
-            <p>Monika Engelen</p>
+
+        <figure class = "cards">
+            <img src="../images/image25.png" alt="Erste Card" width = 100%>
+            <p class = "title">Wie erhalte ich eine Pitch?</p>
+            <p class = "author">Monika Engelen</p>
             <section>
-                <h3>Tags</h3>
                 <ul>
                     <li>Pitch</li>
                     <li>StartUp</li>
@@ -76,12 +100,11 @@ Liste an cards
             </section>
         </figure>
 
-        <figure>
-            <img src="../images/image35.png" alt="Erste Card" width = 50%>
-            <p>Wie erhalte ich eine Pitch? 2</p>
-            <p>Monika Engelen</p>
+        <figure class = "cards">
+            <img src="../images/image35.png" alt="Erste Card" width = 100%>
+            <p class = "title">Wie erhalte ich eine Pitch? 2</p>
+            <p class = "author">Monika Engelen</p>
             <section>
-                <h3>Tags</h3>
                 <ul>
                     <li>Pitch</li>
                     <li>StartUp</li>
@@ -96,32 +119,33 @@ Liste an cards
 
     <footer>
 
+        <div class = "zeug">
+        
+                    <h3>Barrierefreiheit</h3>
 
+                    <ul>
+                        <li><a href = "">Leichte Sprache</a></li>
+                        <li><a href = "">Leichte Sprache</a></li>
+                    </ul>
 
+                    <h3>Feedback</h3>
 
-        Section bei ihnhaltsgetriebenem Abschnitt
-        Bei viel Text section, ansonsten div
+                    <ul>
+                        <li><a href="">Verbesserungsvorschläge</a></li>
+                        <li><a href="">Content Vorschläge</a></li>
+                        <li><a href="">Feedback Umfrage</a></li>
+                    </ul>
 
-        <h2>Barrierefreiheit</h2>
+                    <h3>Rechtliche Informationen</h3>
 
-        <ul>
-            <li>Leichte Sprache</li>
-            <li>Leichte Sprache</li>
-        </ul>
-        <h3>Feedback</h3>
+                    <ul>
+                        <li><a href="">Verantwortliche</a></li>
+                        <li><a href="">Impressum</a></li>
+                        <li><a href="">Datenschutz</a></li>
+                    </ul>
 
-        <ul>
-            <li>Verbesserungsvorschläge</li>
-            <li>Content Vorschläge</li>
-            <li>Feedback Umfrage</li>
-        </ul>
-        <h3>Rechtliche Informationen</h3>
-
-        <ul>
-            <li>Verantwortliche</li>
-            <li>Impressum</li>
-            <li>Datenschutz</li>
-        </ul>
+        </div>
+        
     </footer>
 </body>
 </html>
