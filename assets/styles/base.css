@@ -20,7 +20,3 @@ footer{
         font-style: italic;
     }
 }
-
-h2{
-    font-size: var(--xxl);
-}

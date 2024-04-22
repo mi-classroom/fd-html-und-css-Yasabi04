@@ -1,21 +1,28 @@
-.ilu li{
-    display: block;
-    font-size: var(--l);
-    padding: var(--s);
-    padding-left: var(--3xl);
-    margin: var(--s);
-    margin-bottom: var(--m);
-    color: var(--text);
-    background-color: white;
+.ilu {
+    li{
+        display: block;
+        font-size: var(--l);
+        padding: var(--s);
+        padding-left: var();
+        margin-bottom: var(--m);
+        color: var(--text);
+        background-color: white;
+        margin-right: 50px;
+    }
 }
 
-.favoriten div{
-    font-size: var(--l);
-    padding: var(--s);
-    padding-left: var(--3xl);
-    margin: var(--s);
-    color: var(--text);
-    background-color: white;
+.favoriten {
+
+    margin-right: 50px;
+
+    div{
+        font-size: var(--l);
+        padding: var(--s);
+        padding-left: var(--3xl);
+        margin-bottom: var(--s);
+        color: var(--text);
+        background-color: white;
+    }
 
     address{
         font-size: var(--m);
@@ -75,6 +82,8 @@ ul{
 .cards{
     background-color: #ffffff;
     text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .cards li{
@@ -91,7 +100,9 @@ ul{
 .suche{
     h2{
         background-color: #ffffff;
-        margin-left: 50px;
+        margin-left: var(--3xl);
+        margin-right: var(--3xl);
+        margin-bottom: -50px;
         font-size: var(--xl);
         font-weight: 150;
         color: rgb(159, 159, 159);
@@ -116,4 +127,4 @@ ul{
         padding-top: 20px;
         font-size: var(--xl);
     }
-} 
+}
