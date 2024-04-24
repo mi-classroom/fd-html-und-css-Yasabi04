@@ -54,12 +54,16 @@
     background-color: #ffffff;
 }
 
+.cards{
+    background-color: #ffffff;
+    text-align: left;
+}
 
 .cards li{
     display: inline-block;
     font-weight: 600;
     font-size: var(--s);
-    padding-top: 3px;
+    padding: 3px;
     margin: 5px;
     background-color: var(--bg-grey);
 }
