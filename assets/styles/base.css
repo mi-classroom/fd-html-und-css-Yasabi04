@@ -1,6 +1,6 @@
 body > *{
     background-color: var(--bg-grey);
-    padding: 50px;
+    padding: 21px;
 }
 
 .topbar, div.zeug{
@@ -19,4 +19,8 @@ footer{
     h3{
         font-style: italic;
     }
+}
+
+ul{
+    list-style-type: none;
 }

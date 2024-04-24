@@ -9,6 +9,8 @@
         background-color: white;
         margin-right: 50px;
     }
+    margin-left: -10px;
+    margin-right: 42px;
 }
 
 .favoriten {
@@ -18,7 +20,7 @@
     div{
         font-size: var(--l);
         padding: var(--s);
-        padding-left: var(--3xl);
+        padding-left: var(--m);
         margin-bottom: var(--s);
         color: var(--text);
         background-color: white;
@@ -29,67 +31,36 @@
     }
 }
 
-ul{
-    list-style-type: none;
+.fav-text-picture{
+    display: flex;
+    img{
+        margin-right: var(--m);
+    }
 }
 
-/*
-.banner{
-    padding: 50px;
-    margin: 50px;
-    padding-top: 5px;
-    background-color: var(--th-orange);
-    color: white;
-    font-style: normal;
-    font-size: var(--m);
+.ilu-text-picture{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 10px;
+    img{
+        margin-right: var(--m);
+        margin-left: var(--m);
+    }
 }
-*/
 
 .topbar{
     width: auto;
     background-color: #ffffff;
 }
 
-.topbar-content {
-    display: flex; /* Verwende Flexbox, um die Elemente in einer Zeile anzuordnen */
-    justify-content: space-between; /* Platzieren Sie die Elemente so weit wie möglich voneinander entfernt */
-    padding-right: 50px; /* Füge 100px Padding auf beiden Seiten hinzu */
-}
-
-.liste-rechts-oben{
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 35px;
-
-    a{
-        font-size: var(--l);
-        margin: 10px;
-        font-weight: bolder;
-        color: var(--th-orange);
-        text-decoration: none;
-    }
-}
-
-/*
-.liste-rechts-oben{
-    display: flexbox;
-    text-decoration: none;
-    color: black;
-    font-style: italic;
-}
-*/
-
-.cards{
-    background-color: #ffffff;
-    text-align: left;
-    margin-left: 50px;
-    margin-right: 50px;
-}
 
 .cards li{
     display: inline-block;
-    margin: var(--s);
-    padding: 5px;
+    font-weight: 600;
+    font-size: var(--s);
+    padding-top: 3px;
+    margin: 5px;
     background-color: var(--bg-grey);
 }
 
@@ -97,18 +68,27 @@ ul{
     padding-left: var(--xl);
 }
 
-.suche{
-    h2{
-        background-color: #ffffff;
-        margin-left: var(--3xl);
-        margin-right: var(--3xl);
-        margin-bottom: -50px;
-        font-size: var(--xl);
-        font-weight: 150;
-        color: rgb(159, 159, 159);
-        padding: 10px;
-        padding-top: 13px;
-    }
+.suche {
+    display: flex;
+    align-items: center; /* Zentrieren Sie die Elemente vertikal */
+    background-color: #ffffff; /* Weißer Hintergrund für die Suchleiste */
+    margin-right: 50px;
+    margin-left: 42px;
+}
+
+.suche h2 {
+    margin-right: 150px; /* Abstand zwischen h2 und img */
+    padding-left: 10px;
+    margin: 10px;
+    font-weight: 50;
+    color: #0000006b;
+
+}
+
+.suche img {
+    max-width: 100%;
+    scale: 1.1;
+    color: #0000006b;
 }
 
 .zeug{
