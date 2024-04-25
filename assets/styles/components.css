@@ -74,10 +74,14 @@
 
 .suche {
     display: flex;
+    justify-content: space-between;
     align-items: center; /* Zentrieren Sie die Elemente vertikal */
     background-color: #ffffff; /* Weißer Hintergrund für die Suchleiste */
     margin-right: 50px;
     margin-left: 42px;
+    img{
+        margin-right: 8px;
+    }
 }
 
 .suche h2 {
