@@ -1,16 +1,26 @@
 .ilu {
     li{
-        display: block;
+        display: flex;
         font-size: var(--l);
         padding: var(--s);
-        padding-left: var();
-        margin-bottom: var(--m);
+        padding-left: var(--xl);
         color: var(--text);
         background-color: white;
         margin-right: 50px;
     }
     margin-left: -10px;
     margin-right: 42px;
+}
+
+.ilu-text-picture{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 10px;
+    img{
+        margin-right: var(--m);
+        margin-left: var(--m);
+    }
 }
 
 .favoriten {
@@ -35,17 +45,6 @@
     display: flex;
     img{
         margin-right: var(--m);
-    }
-}
-
-.ilu-text-picture{
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    margin: 10px;
-    img{
-        margin-right: var(--m);
-        margin-left: var(--m);
     }
 }
 
