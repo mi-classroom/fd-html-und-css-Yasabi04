@@ -28,6 +28,7 @@
 
 
 .ilu {
+    padding: 21px;
     li{
         display: flex;
         font-size: var(--l);
@@ -130,7 +131,7 @@
 }
 
 .zeug{
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(90, 90, 90);
     color: white;
     padding: 10px;
     a{
@@ -160,4 +161,15 @@
         justify-content: left;
         gap: var(--m);
     }
+}
+
+.rotated {
+    background-color: white;
+    transform: rotate(180deg);
+}
+
+
+.arrowClick{
+    border: 0;
+    background-color: white;
 }

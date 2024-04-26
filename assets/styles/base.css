@@ -2,7 +2,7 @@ body > *{
     background-color: var(--bg-grey);
 }
 
-.topbar, div.zeug{
+.topbar{
     background-color: var(--bg-grey);
 }
 

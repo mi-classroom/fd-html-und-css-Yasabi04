@@ -1,0 +1,11 @@
+.arrow{
+    scale: 2.0;
+    transform: rotate(90deg);
+    margin-right: 21px;
+    margin-left: 21px;
+}
+
+.project-logo{
+    scale: 0.9;
+    margin-left: 21px;
+}
