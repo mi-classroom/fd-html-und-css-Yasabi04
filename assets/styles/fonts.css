@@ -3,9 +3,9 @@ html, body{
 }
 
 .title{
-    font-size: var(-xl);
+    font-size: var(-l);
 }
 
 .author{
-    font-size: var(--l);
+    font-size: var(--m);
 }

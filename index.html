@@ -13,17 +13,22 @@
 </head>
 <body>
     <header class = "topbar">
-        <div class = "topbar-content">
-            <h1 class = "logo"><img src="../images/PS4A-Logo.jpg" alt="ProjectSurvival4All" width = 30%></h1>
+            
+            <h1 class = "logo">
+                <img src="../images/PS4A-Logo.jpg" alt="ProjectSurvival4All" width = 30%>
+                <img src="./assets/images/search.svg" alt="burger">
+            </h1>
 
-            <!--
-                <div class = "liste-rechts-oben">
-            <a href="">News</a>
-            <a href="">Barrierefreiheit</a>
-            <a href="">DE</a>
-        </div>
-            -->
-        </div>
+            <section class = "suche for-large">
+                <h2>Suche</h2>
+                <img src="./assets/images/search.svg" alt="Lupensymbol">
+            </section>
+
+            <ul class = "navigation">
+                <li class = "mb">Mein Bereich</li>
+                <li class = "s">Suche</li>
+                <li class = "ak">Aktuelles</li>
+            </ul>
     </header> 
     <br>
     <!--
@@ -44,15 +49,15 @@
 
     <main>
 
-        <section class = "suche">
+        <section class = "suche for-small">
             <h2>Suche</h2>
-            <img src="./assets/images/search.svg" alt="Lupensymbol">
+            <img src="./assets/images/burgerAlternative.svg" alt="Pfeilsymbol">
         </section>
 
         <section class = "favoriten">
             <h2>Favoriten</h2>
 
-            <ul>
+            <ul class = "item-list is-grid">
                 <div>
                     <section class = "fav-text-picture">
 
@@ -94,7 +99,7 @@
         <section class = "ilu">
         <h2>Von deinem ILU Schreibtisch</h2>
 
-        <ul>
+        <ul class = "item-list is-inline">
             <section class = "ilu-text-picture">
                 <img src="./assets/images/folder.svg" alt="folder">
                 <li>Datenbanken</li>

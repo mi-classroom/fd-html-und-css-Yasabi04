@@ -1,21 +1,19 @@
 body > *{
     background-color: var(--bg-grey);
-    padding: 21px;
 }
 
 .topbar, div.zeug{
-    background-color: #6c6c6c;
-    padding: 0px;
+    background-color: var(--bg-grey);
 }
 
 h1, h2, h3{
     font-weight: bold;
-    padding-left: 50px;
+    padding-top: 10px;
+    padding-left: 42px;
 }
 
 footer{
-    background-color: #6c6c6c;
-
+    background-color: #4b4b4b;
     h3{
         font-style: italic;
     }
@@ -24,3 +22,56 @@ footer{
 ul{
     list-style-type: none;
 }
+
+
+
+
+
+
+.suche {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Zentrieren Sie die Elemente vertikal */
+    background-color: #ffffff; /* Weißer Hintergrund für die Suchleiste */
+    margin-right: 50px;
+    margin-left: 42px;
+
+    img{
+        margin-right: 8px;
+    }
+}
+
+.suche h2 {
+    margin-right: 150px; /* Abstand zwischen h2 und img */
+    padding-left: 10px;
+    margin: 10px;
+    font-weight: 50;
+    font-size: var(--l);
+    color: #0000006b;
+}
+
+.suche img {
+    max-width: 100%;
+    scale: 1.1;
+    color: #0000006b;
+}
+
+@media screen and (max-width: 750){
+    .suche.for-small{
+        display: inline;
+    }
+
+.suche.for-large{
+       display: none;
+    } 
+}
+
+@media screen and (min-width: 750px) {
+    .suche.for-small{
+            display: none;
+        }
+
+    .suche.for-large{
+           display: inline;
+        }    
+} 
