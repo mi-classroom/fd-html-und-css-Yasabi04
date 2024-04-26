@@ -166,10 +166,12 @@
 .rotated {
     background-color: white;
     transform: rotate(180deg);
+    transition: transform 1s;
 }
 
 
 .arrowClick{
     border: 0;
     background-color: white;
+    transition: transform 1s;
 }
