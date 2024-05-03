@@ -59,7 +59,7 @@ function initFilters(){
 function filterArticles(filterValue){
     const filteredArticles = currentData.articles.filter(function(article){
         console.log(article)
-        return article.tags.keywords.include(filterValue);
+        return article.tags.keywords.includes(filterValue);
     });
     return filteredArticles
 }
