@@ -1,0 +1,16 @@
+:root{
+    --th-orange: #ea5b0c;
+    --th-pink: #b62584;
+    --th-red: #c60c0f;
+    --bg-grey: #e8e8e8;
+    --white: #ffffff;
+    --text: #000000;
+
+    --xs: 10px;
+    --s: 12px;
+    --m: 16px;
+    --l: 20px;
+    --xl: 25px;
+    --xxl: 31.5px;
+    --3xl: 40px;
+}
